@@ -61,7 +61,7 @@ projects.
 %if %{with examples}
 %package examples
 Summary:	example for jsmn
-Requires:	%{name}= %{version}-%{release}
+Requires:	%{devname} = %{EVRD}
 
 %description examples
 jsmn examples.
